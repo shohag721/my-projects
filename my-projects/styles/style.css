@@ -104,3 +104,172 @@ nav .menu {
 .hero-img img{
     vertical-align: middle;
 }
+
+
+/* About-Section */
+
+.about-me{
+    width: 71%;
+    max-width: 1140px;
+    height: 550px;
+    margin: 130px 230px 0;
+    text-align: center;
+    background-color: #FFF8F3;
+}
+
+.about-me .about-contener{
+    padding: 131px 156px;
+    max-width: 827px;
+    height: 288px;
+}
+
+.about-description h3{
+    font-weight:700;
+    font-size: 35px;
+    color: #181818;
+    padding-bottom: 30px;
+}
+
+.about-description p{
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 30px;
+    color: #757575;
+}
+
+.about-card{
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+}
+.card-info h4{
+    font-size: 0.8rem;
+    color: #757575;
+}
+
+.card-info h5{
+    font-size: 0.9rem;
+    color: #474747;
+}
+
+/* Do Section */
+
+.do{
+    width: 71%;
+    max-width:1140px;
+    margin: 0 auto;
+}
+
+.do h2{
+    margin-top: 130px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700; 
+    color: #181818;
+}
+.do-description{
+    max-width: 780px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.do-description{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #757575;
+}
+
+/* Do Card Info */
+.card-sec{
+    margin-top: 50px;
+    max-width: 1140px;
+    height: 310px;
+    display: flex;
+    gap: 24px;
+
+}
+.do-card-content{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 #0000001f;
+    padding: 30px;
+}
+.do-card-content img{
+    width: 44px;
+    height: 44px;
+}
+
+.do-card-info h5{
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #181818;
+}
+
+.do-card-info p{
+    margin-top: 20px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #757575;
+}
+
+/* Resume Summary */
+
+.resume-summery{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-heading h2{
+    margin-top: 130px ;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.education-content{
+    margin-top: 80px;
+    max-width: 558px;
+    height: 716px;
+}
+
+.education-content h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.resume-card{
+    max-width: 511px;
+    height: 175px;
+}
+
+.resume-card .card-heding{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #474747;
+}
+
+.resume-card .card-info{
+    margin-top: 5px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #757575;
+}
+.resume-card .card-details{
+    margin-top: 10px;
+    margin-right: 35px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #757575;
+}
