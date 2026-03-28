@@ -13,6 +13,8 @@
 
 /* Share Styles */
 
+/* Dark-2 */
+
 .btn{
     background-color: #FD6E0A;
     border: none;
@@ -27,7 +29,10 @@
 /* Header Section */
 
 header{
-    background-color:#FFF8F3;
+    background-color: #FFF8F3;
+    background-image: url("/my-projects/images/developer.png") , url("/my-projects/images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: left , bottom right;
 }
 
 nav{
@@ -46,7 +51,56 @@ nav .menu {
     list-style-type: none;
     align-items: center;
 }
+.menu a{
+    font-size: 20px;
+    color: #474747;
+}
 
 .Mary{
     color: #FD6E0A;
+}
+
+/* hero-Section */
+
+.hero-banner{
+    max-width: 1332px;
+    height: 676px;   
+    display: flex;
+    justify-content: space-between;
+    margin: 46px 38px 0 200px;
+    /* border: 1px solid black; */
+
+}
+
+.hero-description{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+
+
+.hero-content h3{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.hero-content h2{
+    font-size: 85px;
+    font-weight: 800;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.hero-img img{
+    vertical-align: middle;
 }
